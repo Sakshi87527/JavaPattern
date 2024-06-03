@@ -1,0 +1,135 @@
+1)
+package demo;
+public class pattern1 {
+public static void main(String args[])
+{
+for(int i=1;i<=3;i++)
+{
+for(int j=1;j<=3;j++)
+{
+System.out.print("1");
+}
+System.out.println();
+}
+}
+}
+Output: 
+111
+111
+111
+
+2)
+package Interviewque;
+
+
+public class pattern4 {
+	public static void main(String args[])
+	{
+		
+		for(int i = 5;i>=1;i--)
+		{
+			for(int j=1;j<=i;j++)
+			{
+				System.out.print
+				("*");
+			}
+			
+			
+			System.out.println();
+		}
+		
+		
+}
+}
+Output: 
+*****
+****
+***
+**
+*
+
+3)
+package Interviewque;
+
+
+public class pattern4 {
+	public static void main(String args[])
+	{
+		
+		for(int i=5;i>=1;i--)
+		{
+			for (int j=1 ;j<=5-i;j++)
+			{
+				System.out.print(" ");
+			}
+			for(int j=1;j<=i;j++)
+			{
+				System.out.print("*");
+			}
+			System.out.println();
+		}
+		
+}
+}
+
+Output: 
+*****
+ ****
+  ***
+   **
+    *
+
+4)
+package Interviewque;
+
+
+public class pattern4 {
+	public static void main(String args[])
+	{
+		
+		for(int i=1;i<=5;i++)
+		{
+			for(int j=1;j<=5-i;j++)
+			{
+				System.out.print(" ");
+			}
+			for(int k=1;k<=i;k++)
+			{
+				System.out.print("*");
+			}
+			System.out.println();
+			
+		}		
+}
+}
+Output:
+    *
+   **
+  ***
+ ****
+*****
+5)
+package Interviewque;
+
+
+public class pattern4 {
+	public static void main(String args[])
+	{
+		
+		for (int i=1;i<=5;i++)
+		{
+			for(int j=1;j<=i;j++)
+			{
+				System.out.print("*");
+			}
+			System.out.println(" ");
+		}
+}
+}
+
+Output:
+* 
+** 
+*** 
+**** 
+****
